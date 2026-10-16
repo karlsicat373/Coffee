@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elite Coffee | Contact</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header>
+    <a class="logo" href="/">ELITE COFFEE</a>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/menu">Menu</a>
+      <a href="/about">About</a>
+      <a href="/contact" class="active">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <div class="split">
+      <div class="pic"><img src="/images/contact.jpg" alt="A person enjoying a cup of coffee"></div>
+      <div class="panel">
+        <h1>Contact Us</h1>
+        <form id="contact-form">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+        <p id="form-msg"></p>
+      </div>
+    </div>
+  </main>
+  <script src="/js/contact.js"></script>
+</body>
+</html>
